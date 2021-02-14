@@ -213,3 +213,18 @@ body {
   line-height: 1.7em;
   letter-spacing: 0.03em;
 }
+
+.header {
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  display: flex;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  border: 1px solid red;
+}

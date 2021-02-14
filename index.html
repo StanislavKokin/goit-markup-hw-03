@@ -15,39 +15,57 @@
   </head>
   <body>
     <!-- <h2 class="visually-hidden">шапка</h2> -->
-    <header class="header">
-      <nav>
-        <a class="logo" href="./index.html"
-          ><span class="web">Web</span><span class="studio">Studio</span>
-        </a>
+   
+      <header class="header">
+         <div class="container">
+        <nav>
+          <span class="logotip"
+            ><a class="logo" href="./index.html"
+              ><span class="web">Web</span><span class="studio">Studio</span>
+            </a></span>
+        
+          <ul class="nav-header">
+            <li>
+              <a class="header-text current" href="./index.html">Студия</a>
+            </li>
+            <li>
+              <a class="header-text" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li><a class="header-text" href="">Контакты</a>
+            </li>
+          </ul>
+        
+        </nav>
         <ul>
-          <li><a class="header-text current" href="./index.html">Студия</a></li>
-          <li><a class="header-text" href="./portfolio.html">Портфолио</a></li>
-          <li><a class="header-text" href="">Контакты</a></li>
+          <li>
+            <a class="nav" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="nav" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
         </ul>
-      </nav>
-      <ul>
-        <li>
-          <a class="nav" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li>
-          <a class="nav" href="tel:+380961111111">+38 096 111 11 11</a>
-        </li>
-      </ul>
-    </header>
+        </div>
+      </header>
+
     <h2 class="visually-hidden">центральная обьява</h2>
-    <main>
-      <div class="hero">
-        <section>
+    <main >
+      
+        <section class="hero">
+          <div class="container">
           <h1 class="hero-centr">
             Эффективные решения <br />
             для вашего бизнеса
           </h1>
           <a class="hero-href" href="">Заказать услугу</a>
+          </div>
         </section>
-      </div>
+      
       <h2 class="visually-hidden">Особенности</h2>
-      <section>
+      
+      <section class="about">
+        <div class="container">
         <ul>
           <li>
             <h3 class="h3-speh">Внимание к деталям</h3>
@@ -78,9 +96,14 @@
             </p>
           </li>
         </ul>
+        </div>
       </section>
+
       <!-- <h2 class="visually-hidden">вид деятильности</h2> -->
-      <section>
+     
+      <section class="proces">
+        <div class="container">
+
         <h2 class="our-deals">Чем мы занимаемся</h2>
         <ul>
           <li>
@@ -103,9 +126,11 @@
             />
           </li>
         </ul>
+        </div>
       </section>
 
       <section class="team">
+        <div class="container">
         <h2 class="our-team">Наша команда</h2>
         <ul>
           <li>
@@ -149,10 +174,14 @@
             <p class="card-text">UI Designer</p>
           </li>
         </ul>
+        </div>
       </section>
+      
     </main>
     <!-- <h2 class="visually-hidden">Подвал</h2> -->
-    <footer>
+    <footer class="footer">
+      <div class="container">
+      
       <a class="logo" href="/index.html">
         <span class="web">Web</span><span class="footer-logo">Studio</span></a
       >
@@ -163,6 +192,7 @@
 
         <a class="nav" href="tel:+380961111111">38 096 111 11 11</a>
       </address>
+      </div>
     </footer>
   </body>
 </html>
