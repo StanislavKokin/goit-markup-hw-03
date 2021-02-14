@@ -220,6 +220,11 @@ body {
   height: 80px;
   left: 0px;
   top: 0px;
+}
+
+.header-nav,
+.contacs-list,
+.nav-list {
   display: flex;
 }
 
@@ -227,4 +232,18 @@ body {
   width: 1200px;
   padding: 0 15px;
   border: 1px solid red;
+}
+
+.header-nav {
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 24px;
+}
+
+.nav-list li {
+  margin-left: 50px;
+}
+
+.contacs-list li:last-child {
+  margin-left: 50px;
 }
