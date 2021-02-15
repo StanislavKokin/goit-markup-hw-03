@@ -46,11 +46,9 @@ footer {
   background-color: var(--fon);
 }
 
-.hero .container {
+.hero {
   background-color: var(--fon);
-  height: 600px;
-  width: 1600px;
-  align-content: c;
+  text-align: center;
 }
 
 .logo {
@@ -94,11 +92,11 @@ footer {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
-
-  /* or 136% */
-
+  line-height: 1.4em;
+  padding-left: 298px;
+  padding-bottom: 295px;
   text-align: center;
+
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-text);
@@ -235,6 +233,7 @@ body {
   width: 1200px;
   padding: 0 15px;
   border: 1px solid red;
+  margin: 0 auto;
 }
 
 .header-nav {
