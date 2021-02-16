@@ -12,6 +12,9 @@
   line-height: 1.6em;
   text-align: center;
   letter-spacing: 0.03em;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 6px 22px 6px 22px;
 }
 
 .btn-portf:hover,
@@ -53,7 +56,6 @@ footer {
   padding-bottom: 200px;
   margin-right: auto;
   margin-left: auto;
-  text-align: center;
 }
 
 .logo {
@@ -314,6 +316,38 @@ body {
   margin-top: 10px;
 }
 
-.liteam + .liteam {
+.liteam {
   margin-left: 30px;
+}
+
+.list-team {
+  margin-left: 0;
+}
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 161px;
+  text-align: left;
+}
+
+.fotter-addres {
+  margin-top: 20px;
+}
+
+.nav-footer {
+  margin-top: 9px;
+}
+
+.project-present {
+  padding-top: 90px;
+  padding-bottom: 95px;
+}
+
+.list-btn {
+  justify-content: center;
+  display: flex;
+}
+
+.list-btn :not(:first-child) {
+  margin-left: 9px;
 }
