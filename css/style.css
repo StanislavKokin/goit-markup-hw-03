@@ -247,7 +247,6 @@ body {
 .container {
   width: 1200px;
   padding: 0 15px;
-  border: 1px solid red;
   margin: 0 auto;
 }
 
@@ -326,7 +325,7 @@ body {
 
 .footer {
   padding-top: 60px;
-  padding-bottom: 161px;
+  padding-bottom: 60px;
   text-align: left;
 }
 
@@ -339,15 +338,29 @@ body {
 }
 
 .project-present {
-  padding-top: 90px;
-  padding-bottom: 95px;
+  padding-top: 91px;
+  padding-bottom: 94px;
 }
 
 .list-btn {
   justify-content: center;
   display: flex;
+  margin-bottom: 50px;
 }
 
 .list-btn :not(:first-child) {
   margin-left: 9px;
+}
+
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.card-set > .set-li {
+  flex-basis: cals(100% / 3 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
 }
