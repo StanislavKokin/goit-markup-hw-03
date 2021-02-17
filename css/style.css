@@ -155,8 +155,10 @@ footer {
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 11.2em;
+  line-height: 1.2em;
   letter-spacing: 0.03em;
+  padding: 94px 0px 47px 0px;
+  margin: 0;
 }
 
 .team {
@@ -210,7 +212,6 @@ body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   letter-spacing: 0.03em;
-  width: 1600px;
 }
 
 .current {
@@ -227,11 +228,7 @@ body {
 }
 
 .header {
-  position: absolute;
-  width: 1600px;
-  height: 80px;
-  left: 0px;
-  top: 0px;
+  padding-left: 0;
 }
 
 .header-nav,
@@ -298,8 +295,8 @@ body {
 }
 
 .team {
-  padding: 94px 0;
   text-align: center;
+  padding: 0px;
 }
 
 .team-list {
@@ -363,4 +360,8 @@ body {
   flex-basis: cals(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
+}
+
+.set-li {
+  color: var(--back-light-white);
 }
